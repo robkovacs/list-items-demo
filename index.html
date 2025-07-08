@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <h2>People</h2>
+      <p class="secondary">
+        All actions hidden at first, exposed on hover or focus
+      </p>
+      <ul class="list list--people">
+        <li class="list-item list-item--person">
+          <div>
+            <a class="main-action" href="#clicked-person-1">Ed Regis</a>
+            <div class="title">Manager, PR</div>
+            <ul class="metadata">
+              <li>
+                <i class="ph ph-users"></i>
+                <a href="#clicked-dept-1">Leadership</a>
+              </li>
+              <li>
+                <i class="ph ph-building-office"></i>
+                <a
+                  href="#clicked-office-1"
+                  class="office-link"
+                  aria-controls="office-california"
+                  >California</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="actions">
+              <li>
+                <button>
+                  <i class="ph ph-phone" aria-label="Call" title="Call"></i>
+                </button>
+              </li>
+              <li>
+                <button>
+                  <i
+                    class="ph ph-envelope"
+                    aria-label="Email"
+                    title="Email"
+                  ></i>
+                </button>
+              </li>
+              <li>
+                <button class="destructive">
+                  <i class="ph ph-trash" aria-label="Delete" title="Delete"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="list-item list-item--person">
+          <div>
+            <a class="main-action" href="#clicked-person-2">Ian Malcolm</a>
+            <div class="title">Chaos Theorist</div>
+            <ul class="metadata">
+              <li>
+                <i class="ph ph-users"></i>
+                <a href="#clicked-dept-2">Science</a>
+              </li>
+              <li>
+                <i class="ph ph-building-office"></i>
+                <a
+                  href="#clicked-office-2"
+                  class="office-link"
+                  aria-controls="office-texas"
+                  >Texas</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="actions">
+              <li>
+                <button>
+                  <i class="ph ph-phone" aria-label="Call" title="Call"></i>
+                </button>
+              </li>
+              <li>
+                <button>
+                  <i
+                    class="ph ph-envelope"
+                    aria-label="Email"
+                    title="Email"
+                  ></i>
+                </button>
+              </li>
+              <li>
+                <button class="destructive">
+                  <i class="ph ph-trash" aria-label="Delete" title="Delete"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="list-item list-item--person">
+          <div>
+            <a class="main-action" href="#clicked-person-3">Tim Murphy</a>
+            <div class="title">Intern</div>
+            <ul class="metadata">
+              <li>
+                <i class="ph ph-users"></i>
+                <a href="#clicked-dept-3">Operations</a>
+              </li>
+              <li>
+                <i class="ph ph-building-office"></i>
+                <a
+                  href="#clicked-office-3"
+                  class="office-link"
+                  aria-controls="office-florida"
+                  >Florida</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="actions">
+              <li>
+                <button>
+                  <i class="ph ph-phone" aria-label="Call" title="Call"></i>
+                </button>
+              </li>
+              <li>
+                <button>
+                  <i
+                    class="ph ph-envelope"
+                    aria-label="Email"
+                    title="Email"
+                  ></i>
+                </button>
+              </li>
+              <li>
+                <button class="destructive">
+                  <i class="ph ph-trash" aria-label="Delete" title="Delete"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+
+      <dialog class="dialog--office" id="office-california">
+        <h3>California</h3>
+        <address>
+          347 North Rodeo Drive<br />
+          Beverly Hills CA 90210
+        </address>
+      </dialog>
+      <dialog class="dialog--office" id="office-florida">
+        <h3>Florida</h3>
+        <address>
+          180 Seven Seas Dr<br />
+          Orlando FL 32830
+        </address>
+      </dialog>
+      <dialog class="dialog--office" id="office-texas">
+        <h3>Texas</h3>
+        <address>
+          8400 Kirby Dr<br />
+          Houston TX 77054
+        </address>
+      </dialog>
+    </section>
+    <section>
+      <h2>Documents</h2>
+      <p class="secondary">
+        Primary action always shown, others exposed on hover or focus
+      </p>
+      <ul class="list list--documents">
+        <li class="list-item list-item--document">
+          <div>
+            <a class="main-action" href="#clicked-person-1"
+              >2025 Company Handbook</a
+            >
+            <ul class="metadata">
+              <li>PDF</li>
+              <li>56.78 KB</li>
+              <li>
+                Uploaded
+                <abbr title="Fri, June 27 at 8:37pm ET">4 days ago</abbr>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="actions">
+              <li>
+                <button>
+                  <i class="ph ph-share" aria-label="Share" title="Share"></i>
+                </button>
+              </li>
+              <li>
+                <button class="destructive">
+                  <i class="ph ph-trash" aria-label="Delete" title="Delete"></i>
+                </button>
+              </li>
+              <li>
+                <button>
+                  <i
+                    class="ph ph-download-simple"
+                    aria-label="Download"
+                    title="Download"
+                  ></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="list-item list-item--document">
+          <div>
+            <a class="main-action" href="#clicked-person-1"
+              >2025 Company Handbook</a
+            >
+            <ul class="metadata">
+              <li>PDF</li>
+              <li>56.78 KB</li>
+              <li>
+                Uploaded
+                <abbr title="Fri, June 27 at 8:37pm ET">4 days ago</abbr>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="actions">
+              <li>
+                <button>
+                  <i class="ph ph-share" aria-label="Share" title="Share"></i>
+                </button>
+              </li>
+              <li>
+                <button class="destructive">
+                  <i class="ph ph-trash" aria-label="Delete" title="Delete"></i>
+                </button>
+              </li>
+              <li>
+                <button>
+                  <i
+                    class="ph ph-download-simple"
+                    aria-label="Download"
+                    title="Download"
+                  ></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="list-item list-item--document">
+          <div>
+            <a class="main-action" href="#clicked-person-1"
+              >2025 Company Handbook</a
+            >
+            <ul class="metadata">
+              <li>PDF</li>
+              <li>56.78 KB</li>
+              <li>
+                Uploaded
+                <abbr title="Fri, June 27 at 8:37pm ET">4 days ago</abbr>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="actions">
+              <li>
+                <button>
+                  <i class="ph ph-share" aria-label="Share" title="Share"></i>
+                </button>
+              </li>
+              <li>
+                <button class="destructive">
+                  <i class="ph ph-trash" aria-label="Delete" title="Delete"></i>
+                </button>
+              </li>
+              <li>
+                <button>
+                  <i
+                    class="ph ph-download-simple"
+                    aria-label="Download"
+                    title="Download"
+                  ></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <script src="main.js" />
+  </body>
+</html>
