@@ -212,6 +212,10 @@ button.destructive:hover {
   gap: 0.5rem 1.5rem;
 }
 
+abbr {
+  text-wrap: nowrap;
+}
+
 .list--documents .actions {
   opacity: 1;
 }
@@ -258,4 +262,67 @@ h3 {
 
 address {
   font-style: normal;
+}
+
+.list--avatar-stack {
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-left: -0.25rem;
+}
+
+.stack-overflow {
+  margin-left: 0.625rem;
+}
+
+.list-item--avatar {
+  margin-left: 0.25rem;
+}
+
+.stack-overflow > .list-item--avatar {
+  margin-left: -0.625rem;
+}
+
+.list-item--endnote {
+  color: #5e6167;
+  font-size: 0.75rem;
+  margin-left: 0.25rem;
+}
+
+.avatar {
+  border: 1px solid #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.625rem;
+  line-height: 1;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bbb;
+  border-radius: 50%;
+}
+
+.avatar--blue {
+  background-color: #b6e5ff;
+}
+
+.avatar--red {
+  background-color: #ffcfc0;
+}
+
+.avatar--green {
+  background-color: #98e2c5;
+}
+
+.avatar--yellow {
+  background-color: #ffdb7b;
+}
+
+.avatar--purple {
+  background-color: #e0d0ff;
 }
