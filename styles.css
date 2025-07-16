@@ -157,6 +157,10 @@ section + section {
   font-size: 1.25rem;
 }
 
+.list--pto-policies .actions {
+  opacity: 1;
+}
+
 button {
   background-color: transparent;
   border: none;
@@ -325,4 +329,58 @@ address {
 
 .avatar--purple {
   background-color: #e0d0ff;
+}
+
+.tag {
+  display: block;
+  width: fit-content;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  color: #5e6167;
+  border: 1px solid #d9dce1;
+  font-weight: 500;
+}
+
+.list--pto-policies > .list-item {
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+
+
+@media (min-width: 30rem) {
+  .list--pto-policies > .list-item {
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+
+  .list-item__pto-policy-id {
+    flex: 1 1 12rem;
+  }
+
+  .list-item__pto-policy-attributes {
+    flex: 4 1 36rem;
+  }
+}
+
+
+
+dl {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5rem 4rem;
+}
+
+dt {
+  color: #5e6167;
+  font-size: 0.875rem;
+  margin-bottom: 0.375rem;
+}
+
+dd {
+  font-size: 1rem;
+  margin-left: 0;
 }
