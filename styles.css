@@ -351,22 +351,26 @@ address {
 
 
 
-@media (min-width: 30rem) {
+@media (min-width: 48rem) {
   .list--pto-policies > .list-item {
     flex-flow: row nowrap;
     align-items: center;
   }
 
   .list-item__pto-policy-id {
-    flex: 1 1 12rem;
+    flex: 1;
   }
 
   .list-item__pto-policy-attributes {
-    flex: 4 1 36rem;
+    flex: 2;
+  }
+
+  .list-item__pto-policy-actions {
+    display: flex;
+    justify-content: flex-end;
+    flex: 0;
   }
 }
-
-
 
 dl {
   display: flex;
